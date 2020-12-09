@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+}
+
+table {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+td {
+    border: 1px solid darkgray;
+    height: 70px;
+    color: white;
+    
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+}
+
+#ulAdminLogged{
+	list-style-type: none;
+	margin-top: 10px;
+	padding: 0;
+	overflow: hidden;
+	background-color: darkgray;
+}
+
+li {
+	float:left;
+}
+li a{
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	padding: 14px 16px;
+	font-size:18px;
+	
+}
+li a:hover	{
+	background-color:red
+}
+
+label {
+	color: white;
+}
+
+form{
+	margin-top: 10px;
+}
